@@ -14,3 +14,5 @@ RUN apk add --update --no-cache \
   busybox-extras
 
 RUN npm install -g mongosh
+
+CMD ["tail", "-f", "/dev/null"]
