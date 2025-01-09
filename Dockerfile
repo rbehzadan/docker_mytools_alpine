@@ -11,6 +11,8 @@ RUN apk add --update --no-cache \
   pass \
   jq \
   bind-tools \
+  postgresql-client \
+  redis \
   busybox-extras
 
 RUN npm install -g mongosh
